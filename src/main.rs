@@ -109,11 +109,6 @@ pub fn generate_signature(policy_name: &str, hmac_key: &str, url: &str, ttl: Dur
 
 fn main() {
     env_logger::init().unwrap();
-    // let namespace = "mindflavorns";
-    // let event_hub = "mindflavor";
-    // let key_name = "sasall";
-    // let key = "M+WLnDQuQXv8b4v1NEiGddFg2CwN+arVEjq1KxDye2M=";
-
     let matches = App::new("pusheventhub")
                       .version("0.1.0")
                       .author("Francesco Cogno <francesco.cogno@outlook.com>")
